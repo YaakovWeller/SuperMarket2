@@ -1,0 +1,19 @@
+<div class="basket">
+    <h2>Your shopping basket:</h2>
+<table>
+    <tbody>
+        <tr *ngFor="let i of basketServ.items">
+            <td><img [src] = "i.img" alt=""></td>
+            <td>{{i.name}}</td>
+            <td></td>
+            <td></td>
+            <td>Size: {{i.size}}  </td>
+            <td></td>
+            <td></td>
+            <td>Price {{i.price}} Shekels</td>
+            <td><input type="number" value="1" class="basketInput" min="1"></td>
+        </tr>
+    </tbody>
+</table>  
+</div>
+

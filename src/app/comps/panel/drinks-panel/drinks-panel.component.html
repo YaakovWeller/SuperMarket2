@@ -1,0 +1,11 @@
+<h2>Drinks Department</h2>
+<div class="panel">
+
+   <ul>
+       <li *ngFor= "let d of drinksService.drinks">{{d.name}} </li>
+       
+   </ul> 
+   <div>
+        <app-drinks-card></app-drinks-card>
+   </div> 
+</div>

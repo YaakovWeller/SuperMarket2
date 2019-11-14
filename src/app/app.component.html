@@ -1,0 +1,7 @@
+<app-header></app-header>
+<app-cooking-panel *ngIf="'cooking'== navServ.currentPanel"></app-cooking-panel>
+<app-drinks-panel *ngIf="'drinks'== navServ.currentPanel"></app-drinks-panel>
+<app-snacks-panel *ngIf="'snacks'== navServ.currentPanel"></app-snacks-panel>
+<app-basket *ngIf="'basket'== navServ.currentPanel"></app-basket>
+<app-arrow *ngIf="'basket'!= navServ.currentPanel"></app-arrow>
+

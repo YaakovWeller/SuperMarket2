@@ -1,0 +1,25 @@
+
+.nav{
+    height: 100%;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+li:hover{
+    font-weight: bold;
+    text-decoration-color: rgb(1, 1, 94);
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+ul{
+    columns: 3;
+    font-size: 22px;
+    display: inline-block;
+    justify-content: space-between;
+}
+img{
+    max-height: 40px
+}
+.noDot{
+    list-style-type: none;
+}

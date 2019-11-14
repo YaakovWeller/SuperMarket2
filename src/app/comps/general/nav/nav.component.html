@@ -1,0 +1,9 @@
+<div class="nav">
+<ul>
+    <li (click) = "changePanel('drinks')">Drinks</li>
+    <li (click) = "changePanel('snacks')">Snacks</li>
+    <li (click) = "changePanel('cooking')">Cooking</li>
+    <li class="noDot" (click) = "changePanel('basket')"><img src="https://static.thenounproject.com/png/16757-200.png">{{this.basketServ.items.length}}</li>
+    
+</ul>
+</div>
