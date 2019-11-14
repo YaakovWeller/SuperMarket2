@@ -13,6 +13,7 @@ import { DrinksPanelComponent } from './comps/panel/drinks-panel/drinks-panel.co
 import { SnacksPanelComponent } from './comps/panel/snacks-panel/snacks-panel.component';
 import { CookingPanelComponent } from './comps/panel/cooking-panel/cooking-panel.component';
 import { BasketComponent } from './comps/panel/basket/basket.component';
+import { HttpClient } from 'selenium-webdriver/http';
 
 
 @NgModule({
@@ -32,7 +33,7 @@ import { BasketComponent } from './comps/panel/basket/basket.component';
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule, HttpClient
   ],
   providers: [],
   bootstrap: [AppComponent]
